@@ -10,8 +10,6 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: url('https://img.thuthuattinhoc.vn/uploads/2019/01/13/anh-nen-dep-nhat_105620947.jpeg')
-        center / cover no-repeat;
 }
 
 .card {
