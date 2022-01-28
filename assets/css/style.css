@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Consolas', sans-serif, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('https://img.thuthuattinhoc.vn/uploads/2019/01/13/anh-nen-dep-nhat_105620947.jpeg')
+        center / cover no-repeat;
+}
+
+.card {
+    background: #000000d0;
+    color: #fff;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 600px;
+    margin: 1em;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 20px;
+}
+
+.search-box .search-bar {
+    padding: 10px 10px;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    appearance: none;
+    margin: 0 16px;
+    background: #7c7c7c2b;
+    color: #fff;
+    font-family: inherit;
+    font-size: 105%;
+    width: 100%;
+    box-shadow: 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.search-box button {
+    padding: 6px 6px;
+    border-radius: 50%;
+    border: none;
+    height: 2.5em;
+    width: 2.5em;
+    cursor: pointer;
+    background: #7c7c7c2b;
+    color: #fff;
+    outline: none;
+    transition: 0.2s ease-in-out;
+}
+
+.search-box button:hover {
+    background: #7c7c7c6b;
+}
+.weather {
+    text-align: center;
+}
+.temp {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.description {
+    text-transform: capitalize;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.humidity,
+.wind {
+    font-size: 18px;
+    padding: 5px 0;
+}
