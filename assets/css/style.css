@@ -65,6 +65,19 @@ body {
 .weather {
     text-align: center;
 }
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+.weather.loading::after {
+    visibility: visible;
+    content: 'Loading...';
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
 .temp {
     margin-top: 20px;
     margin-bottom: 0;
